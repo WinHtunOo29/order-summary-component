@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+body {
+	font-family: 'Red Hat Display', sans-serif;
+	background-image: url("./images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 300px;
+	background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+	width: 25%;
+	height: 60%;
+	margin: 4% auto;
+	box-shadow: 2px 2px 8px #888888;
+	border-radius: 15px;
+	background-color: white;
+	padding-bottom: 1%;
+}
+
+.card img {
+	width: 100%;
+	border-top-left-radius : 15px;
+	border-top-right-radius: 15px;
+}
+
+.order-summary {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.order-summary h2 {
+	font-weight: 900;
+}
+
+.order-summary p {
+	font-size: 16px;
+	color: hsl(224, 23%, 55%);
+	line-height: 150%;
+}
+
+.annual-plan {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 4% 0;
+	border-radius: 10px;
+	background-color: hsl(225, 100%, 98%); 
+}
+
+.annual-plan img {
+	width: 13%;
+	padding-left: 4%;
+}
+
+.annual-fee {
+	width: 60%;
+	margin-left: 8%;
+}
+
+.annual-fee h5{
+	margin: 0;
+	font-weight: 900;
+}
+
+.annual-fee small {
+	color: grey;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.annual-plan a {
+	font-size: 12px;
+	color: hsl(245, 75%, 52%);
+	font-weight: bold;
+	padding-right: 4%;
+}
+
+.annual-plan a:hover {
+	opacity: 70%;
+	text-decoration: none;
+}
+
+.button {
+	width: 70%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 4% 0;
+}
+
+.button .proceed {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	border-radius: 10px;
+}
+
+.button .proceed:hover {
+	opacity: 80%;
+}
+
+.button .cancel {
+	margin-top: 4%;
+	color: hsl(224, 23%, 55%);
+}
+
+.button .cancel:hover {
+	color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 375px) {
+	.card {
+		width: 90%;
+		margin: 18% auto;
+	}
+}
